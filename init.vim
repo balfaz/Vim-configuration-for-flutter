@@ -19,11 +19,13 @@ let g:lsc_auto_map = v:true
 
 nmap <F6> :NERDTreeToggle<CR>
 
+"Impostazioni per uso commandi debug
 nnoremap <leader>fa :FlutterRun<cr>
 nnoremap <leader>fq :FlutterQuit<cr>
 nnoremap <leader>fr :FlutterHotReload<cr>
 nnoremap <leader>fR :FlutterHotRestart<cr>
 nnoremap <leader>fD :FlutterVisualDebug<cr>
+
 
 "Elenco impostazioni per ambiente NVim
 :set guioptions-=m  "remove menu bar
@@ -35,7 +37,7 @@ nnoremap <leader>fD :FlutterVisualDebug<cr>
 :set number relativenumber
 :set nowrap
 :set guifont=Consolas:h14
-":set guifont=Liberation_Mono:h14
+":set guifont=Liberation_Mono:h14 "Font alternativa delle precaricate con Nvim
 :set lines=100 columns=120 linespace=0
 :set cursorline
 colorscheme gruvbox
