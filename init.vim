@@ -1,10 +1,9 @@
-call plug#begin('~/AppData/Local/nvim/plugged')
+call plug#begin('~/AppData/Local/nvim/plugged') "Root  default in Windows system, for Ubuntu or MacOs (~/.config/nvim/)
 " below are some vim plugins for demonstration purpose.
 " add the plugin you want to use here.
 Plug 'natebosch/vim-lsc'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'natebosch/vim-lsc-dart'
-""Plug 'iamcco/coc-flutter'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dart-vim-plugin'
 Plug 'morhetz/gruvbox'
